@@ -1,1 +1,7 @@
 requests
+# For Neo4j
+jupyter
+neo4j
+neo4jupyter
+neomodel
+py2neo
