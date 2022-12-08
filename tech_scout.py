@@ -12,6 +12,7 @@ res = requests.get(nsf_awards_json_api + '?' + keywords)
 # Get the awards data
 json_response = res.json()["response"]
 print(f'type(awards): {type(json_response)}')
+print(json_response)
 awards = json_response["award"]
 
 # Show each award in the list of awards
@@ -29,5 +30,8 @@ for award in awards:
     print(f'publicAccessMandate: {award["publicAccessMandate"]}')
     print(f'date: {award["date"]}')
     print(f'title: {award["title"]}')
+    # abstractText is not a valid key even though it is listed on NSF site.
+    #print(f'abstractText: {award["abstractText"]}')
+
 
 
