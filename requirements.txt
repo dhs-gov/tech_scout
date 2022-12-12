@@ -1,10 +1,16 @@
-requests
-# For Neo4j
+# For Jupyter
 jupyter
-neo4j
-neo4jupyter
-neomodel
+# For Neo4j
+#neo4j
+#neo4jupyter
+#neomodel
 py2neo
+# For scraper
+requests
+beautifulsoup4
 # For spaCy NER
 spaCy
+# For spaCy lang model, download using from virtual environment:
+# python -m spacy download en_core_web_sm 
+# or from requirements.txt:
 #en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.2.0/en_core_web_sm-3.2.0-py3-none-any.whl
