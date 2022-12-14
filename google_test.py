@@ -1,10 +1,10 @@
 """
 Before you can use the Google API, you must do the following:
 
-Follow instructions at 
-https://programmablesearchengine.google.com/controlpanel/all?optin=true
+Follow instructions at:
+    https://programmablesearchengine.google.com/controlpanel/all?optin=true
 
-Select Add
+Select Add.
 
 On next page:
 •	Name your engine
@@ -13,7 +13,7 @@ On next page:
 •	Create
 
 On next page (Your new search engine has been created), select “Go to legacy Control Panel” at the top.
-Next, hit Continue
+Next, select Continue.
 
 On next page:
     Select your search engine
@@ -22,7 +22,7 @@ On next page:
 
 Next, go to https://developers.google.com/custom-search/v1/introduction and 
 select ‘Get a Key’. In the ‘Enable Custom Search API’, enter a new project 
-name. Next, select ‘Show Key’ and copy your API somewhere: 
+name. Next, select ‘Show Key’ and copy your API key: 
 
 Next, fill in your API_KEY and SEARCH_ENGINE_ID below.
 """
@@ -30,10 +30,10 @@ Next, fill in your API_KEY and SEARCH_ENGINE_ID below.
 import requests
 
 # get the API KEY here: https://developers.google.com/custom-search/v1/overview
-API_KEY = "<your API key here"
+API_KEY = "<your API key here>"
 
 # get your Search Engine ID on your CSE control panel
-SEARCH_ENGINE_ID = "Your search engine ID here"
+SEARCH_ENGINE_ID = "Your search engine ID here>"
 
 # the search query you want
 query = "sean warnick byu"
