@@ -1,7 +1,7 @@
 [![Python 3.10](https://img.shields.io/badge/Python-3.10-blue)](https://docs.python.org/release/3.10.8/)
 
 # TechScout
-
+Code for supporting research scouting efforts.
 
 ## Requirements
 - Python 3.10 or above
